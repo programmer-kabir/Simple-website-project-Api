@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(177, 177, 177);
+}
+.accuracy-btn{
+    width: fit-content;
+    margin-left: 380px;
+    margin-bottom: -45px;
+    z-index: 1;
+}
+@media (max-width: 571px){
+    .accuracy-btn{
+        margin-left: 170px;
+    }
+}
+@media (min-width: 572px) and (max-width:991px){
+    .accuracy-btn{
+        margin-left: 305px;
+    }
+}
+@media (min-width: 992px) and (max-width:1200px){
+    .accuracy-btn{
+        margin-left: 205px;
+    }
+}
